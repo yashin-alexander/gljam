@@ -1,0 +1,9 @@
+[package]
+name = "gljam"
+version = "0.1.0"
+authors = ["yashin-alexander <yashin.alexander.42@gmail.com>"]
+
+[dependencies]
+glfw = "0.25.0"
+gl = "0.10.0"
+
