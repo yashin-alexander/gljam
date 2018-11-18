@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["yashin-alexander <yashin.alexander.42@gmail.com>"]
 
 [dependencies]
-glfw = "0.25.0"
+cgmath = "0.16.1"
+glfw = "0.23.0"
 gl = "0.10.0"
-
