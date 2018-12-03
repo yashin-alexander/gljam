@@ -164,7 +164,7 @@ pub fn main_objects() {
 
         // load textures (we now use a utility function to keep the code more organized)
         // -----------------------------------------------------------------------------
-        let diffuseMap = loadTexture("resources/textures/container.png");
+        let diffuseMap = loadTexture("resources/textures/container.jpg");
         let specularMap = loadTexture("resources/textures/container_specular.png");
 
         // shader configuration
