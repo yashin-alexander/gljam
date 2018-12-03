@@ -192,7 +192,7 @@ pub fn main_objects() {
 
         // render
         unsafe {
-            gl::ClearColor(0.1, 0.1, 0.1, 1.0);
+            gl::ClearColor(0.5, 0.22, 0.22, 1.0);
             gl::Clear(gl::COLOR_BUFFER_BIT | gl::DEPTH_BUFFER_BIT);
 
             // be sure to activate shader when setting uniforms/drawing objects
@@ -207,7 +207,7 @@ pub fn main_objects() {
             */
             // directional light
             lightingShader.setVec3(c_str!("dirLight.direction"), -0.2, -1.0, -0.3);
-            lightingShader.setVec3(c_str!("dirLight.ambient"), 0.05, 0.05, 0.05);
+            lightingShader.setVec3(c_str!("dirLight.ambient"), 0.5, 0.5, 0.5);
             lightingShader.setVec3(c_str!("dirLight.diffuse"), 0.4, 0.4, 0.4);
             lightingShader.setVec3(c_str!("dirLight.specular"), 0.5, 0.5, 0.5);
             // point light 1
